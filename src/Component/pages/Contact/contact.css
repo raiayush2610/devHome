@@ -1,0 +1,86 @@
+.profile-img{
+          width: 55%;
+          
+          border-radius: 100%;
+      
+}
+
+.middle-container2{
+         
+          display: flex;
+          background-color: #58ACFA;
+          color: yellow;
+          margin: 45px ;
+}
+.profile-row{
+          /* position: relative; */
+          right: 150px;
+          
+}
+.contract-details{
+          display: flex;
+}
+@media  only screen and (max-width: 650px) {
+          .profile-img{
+                    width: 100px;
+                    border-radius: 0;
+                    height: 200px;
+                    
+                
+          }
+          .profile-row{
+                    /* position: relative; */
+                    margin: 0 1px 10px 05px;
+                    left: 14px;
+                    bottom: 30px;
+                    
+          }
+          .image-div{
+                    width: 100px;
+          }
+          .contract-details{
+                    /* left: 6px; */
+                    bottom: 30px;
+                    right: 45px;
+          }
+          .profile-row h1 p {
+                    font-weight: 5px;
+                    font-size: medium;
+                    
+          }
+          .contract-details .btn{
+                    
+          }
+}
+@media  only screen and (max-width: 450px) {
+          .profile-img{
+                    width: 100px;
+                    border-radius: 0;
+                    height: 200px;      
+          }
+          .profile-row{
+                    /* position: relative; */
+                    margin: 0 1px 10px 05px;
+                    left: 400px;
+                    bottom: 30px;
+          }
+          .image-div{
+                    width: 150%;
+          }
+          .contract-details{
+                    left: 6px;
+                    bottom: 30px;
+                    right: 45px;
+          }
+          .profile-row h1 p {
+                    font-weight: 10px;
+                    font-size: medium;
+                    
+          }
+          .contract-details .btn{
+                    
+          }
+
+
+
+}

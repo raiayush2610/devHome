@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Merriweather:ital,wght@1,300&display=swap');
+.middle-container3{
+         
+          display: flex;
+          
+          background-color: #58ACFA;
+          color: rgb(76, 17, 17);
+          margin: 45px ;
+}
+
+.center{
+ margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+}
+.feature{
+          margin: 4% ;
+         
+}
+.feature-body{
+          /* Top right down left */
+          margin: 2% 10% 2%  20%;
+          display: flex;
+          
+}
+
+       
+
+
